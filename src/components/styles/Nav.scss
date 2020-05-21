@@ -1,0 +1,54 @@
+@import 'Breakpoint';
+@font-face {
+  font-family: 'Weather&Time';
+  src: url('../../fonts/Weather&Time.ttf') format('truetype');
+}
+
+.nav {
+  display: flex;
+  width: 100vw;
+  height: 12vh;
+  @media (min-width: $sm) {
+    display: flex;
+    width: 17vw;
+    flex-shrink: 0;
+    height: 100vh;
+  }
+}
+
+.nav-drawerPaper {
+  width: 17vw;
+  position: relative !important;
+}
+
+.nav ul {
+  display: flex;
+  flex-basis: 100%;
+  flex-direction: row;
+  align-items: center;
+  list-style: none;
+  padding: 0.2em 0.3em;
+  font-family: 'Roboto';
+  @media (min-width: 320px) {
+    flex-direction: column;
+  }
+}
+
+.nav ul li {
+  padding: 0.2em 0.3em;
+}
+
+.Nav-Link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.link-active {
+  background-color: rgba(0,0,0,0.14) !important;
+}
+
+.ListIcon {
+  @media (max-width: 998px) {
+    display: none !important
+  }
+}

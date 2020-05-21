@@ -1,0 +1,19 @@
+  .SearchPlace__button {
+    background: linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%) !important;
+    border-radius: 3px !important;
+    border:0 !important;
+    color: white !important;
+    height: 48px !important;
+    padding: 0 30px !important;
+    box-shadow: 0 3px 5px 2px rgba(109, 105, 106, 0.3);
+  }
+
+  .search-icon {
+    position: relative;
+    // padding: 9px;
+    top: -6px;
+  }
+
+  .custom-shadow {
+    box-shadow: 0 1px 1px 0 rgba(60,64,67,0.08), 0 1px 3px 1px rgba(60,64,67,0.16) !important;
+  }

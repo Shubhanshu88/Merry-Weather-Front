@@ -1,0 +1,40 @@
+@import 'Breakpoint';
+
+// New Search Bar  (MapWeather, SearchPlace)
+.Search {
+  &-Paper {
+    padding: 2px 4px;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    box-shadow: 0 1px 1px 0 rgba(60,64,67,0.08), 0 1px 3px 1px rgba(60,64,67,0.16) !important;
+    &.long {
+      width: 400px;
+    }
+    &.slong {
+      width: 80vw;
+    }
+    &.slong-comp {
+      @media (max-width: $sm) {
+        box-shadow: none;
+        height: 100px;
+        margin-bottom: 10px;
+      }
+    }
+  }
+  &-InputBase {
+    margin-left: 8px;
+    flex: 1;
+  }
+  &-IconButton {
+    padding: 10px;
+  }
+  &-Divider {
+    max-height: 32px !important;
+    margin: 4px !important;
+    &-Comp {
+      max-height: 44px !important;
+      margin: 4px !important;
+    }
+  }
+}
