@@ -16,7 +16,7 @@ const AppInfo = () => {
       <div className="AppInfo-card-parent">
       <RouteLink onClick={() => {document.querySelector('.of').scrollTop = 0;}} className="AppInfo-link" to="/">
         <Card className="AppInfo-card">
-          <CardHeader>Place Weather</CardHeader>
+          <CardHeader>Single Place Forecast</CardHeader>
           <CardMedia 
             component={Icon}
             className="MIcon"
@@ -25,10 +25,10 @@ const AppInfo = () => {
             </CardMedia>
             <CardContent>
               <Typography gutterBottom variant="h5" component="h2">
-                Place Weather
+              Single Place Forecast
               </Typography>
               <Typography variant="body2" color="textSecondary" component="p">
-                The all new Map Weather feature allows better and accurate weather insights by displaying a map along with weather details.
+                This feature displays weather forecast of a single place.
               </Typography>
             </CardContent>
         </Card>
@@ -36,7 +36,7 @@ const AppInfo = () => {
 
         <RouteLink onClick={() => {document.querySelector('.of').scrollTop = 0;}} className="AppInfo-link" to="/compare">
         <Card className="AppInfo-card">
-          <CardHeader>Compare Weather</CardHeader>
+          <CardHeader>Compare Places</CardHeader>
           <CardMedia 
             component="img"
             alt="Map Data Icon"
@@ -46,10 +46,10 @@ const AppInfo = () => {
             title="Map Data"/>
             <CardContent>
               <Typography gutterBottom variant="h5" component="h2">
-                Compare Weather
+                Compare Places
               </Typography>
               <Typography variant="body2" color="textSecondary" component="p">
-                The all new Map Weather feature allows better and accurate weather insights by displaying a map along with weather details.
+                The feature allows comparing between 2 places.
               </Typography>
             </CardContent>
         </Card>
@@ -70,7 +70,7 @@ const AppInfo = () => {
                 Map Data
               </Typography>
               <Typography variant="body2" color="textSecondary" component="p">
-                The all new Map Weather feature allows better and accurate weather insights by displaying a map along with weather details.
+                This feature displays temperature along with a map of the region.
               </Typography>
             </CardContent>
         </Card>

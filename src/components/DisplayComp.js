@@ -40,7 +40,7 @@ class DisplayComp extends Component {
             <span style={{ marginRight: '10px' }}>
               {_.round((city.weather.currently.temperature - 32) * 5/9, 2)}<sup>o</sup>C
             </span>
-            {city.weather.currently.humidity * 100}%
+            {_.round(city.weather.currently.humidity * 100,1)}%
           </ListItem>
           <OnlyWeekDisplay open={this.state.open} setOpen={this.setOpen} weekly={city.weather.daily.data} className="compare__weekdata"/>
           </List>
