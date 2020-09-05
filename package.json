@@ -13,7 +13,7 @@
     "fetch": "^1.1.0",
     "google-map-react": "^1.1.4",
     "lodash": "^4.17.15",
-    "node-sass": "^4.12.0",
+    "node-sass": "^4.13.1",
     "react-router-dom": "^5.0.1"
   },
   "scripts": {
